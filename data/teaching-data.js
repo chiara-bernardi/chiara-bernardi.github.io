@@ -15,6 +15,18 @@ const TEACHING_DATA = {
       level: 'Undergraduate',
     },
     {
+      name: 'Excel for Economics',
+      university: 'Queen Mary University of London',
+      year: 2025,
+      level: 'Undergraduate',
+    },
+    {
+      name: 'Excel for Economics',
+      university: 'Queen Mary University of London',
+      year: 2024,
+      level: 'Undergraduate',
+    },
+    {
       name: 'Macroeconomics I',
       university: 'London School of Economics',
       year: 2024,
@@ -101,8 +113,8 @@ const TEACHING_DATA = {
   ],
   intro: null,
   outro: `
-      I am a trained Graduate Teaching Assistant (Economics Network) and I received monetary 
-      teaching bonuses from LSE for the outstanding results in students teaching evaluations.
+      I am a trained <strong><a target="_blank" href="assets/documents/teaching_training_certificate.pdf">Graduate Teaching Assistant (Economics Network)</a></strong> and I received 
+      teaching bonuses from LSE for the outstanding results in <strong><a target="_blank" href="assets/documents/teaching_evaluations.pdf">students teaching evaluations</a></strong>.
     `
 };
 

@@ -251,17 +251,20 @@ class NavigationManager {
                 <h1>Teaching</h1>
                 ${TEACHING_UTILS.getTeachingIntro() || ''}
                 <div class="university-section">
-                    ${courses.map(([university, uni_courses]) => `
-                        <div class="course-group">
-                            <div class="university-header">
-                                <div class="university-logo"></div>
-                                <div class="university-info"><h3>${university}</h3></div>
+                    ${courses.map(([university, uni_courses]) => {
+                        const uni_info = UNI_UTILS.getUniversityByName(university);
+                        return `
+                            <div class="course-group">
+                                <div class="university-header">
+                                    <div class="university-logo"><img src="${uni_info?.logo}" /></div>
+                                    <div class="university-info"><h3><a href="${uni_info?.website}">${university}</a></h3></div>
+                                </div>
+                                <div class="courses-grid">
+                                    ${uni_courses.map(course => TEACHING_UTILS.generateCourseHTML(course)).join('')}
+                                </div>
                             </div>
-                            <div class="courses-grid">
-                                ${uni_courses.map(course => TEACHING_UTILS.generateCourseHTML(course)).join('')}
-                            </div>
-                        </div>
-                        `).join('')}
+                        `;
+                    }).join('')}
                 </div>
                 ${TEACHING_UTILS.getTeachingOutro() || ''}
             </div>`;
