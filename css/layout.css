@@ -13,7 +13,7 @@ header {
     padding: var(--spacing-lg) 0;
     border-bottom: 1px solid var(--color-border);
     position: sticky;
-    top: -20px;
+    top: 0;
     z-index: 100;
 }
 
@@ -77,6 +77,16 @@ main {
 .page-content.active {
     display: block;
     opacity: 1;
+}
+
+.page-content.active h1 {
+    margin-top: var(--spacing-xl);
+    margin-bottom: var(--spacing-xl);
+}
+
+.page-content.active h2 {
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
 }
 
 /* Footer */
