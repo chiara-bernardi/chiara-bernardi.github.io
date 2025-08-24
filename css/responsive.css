@@ -1,0 +1,363 @@
+/* Responsive Design */
+
+/* Large screens and up (1280px+) */
+@media (min-width: 1280px) {
+    .container {
+        padding: 0 var(--spacing-xl);
+    }
+    
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+/* Medium screens and down (1023px and below) */
+@media (max-width: 1023px) {
+    .container {
+        padding: 0 var(--spacing-lg);
+    }
+    
+    .nav-links {
+        gap: var(--spacing-xl);
+    }
+}
+
+/* Tablet screens and down (768px and below) */
+@media (max-width: 768px) {
+    /* Navigation adjustments */
+    nav {
+        flex-direction: column;
+        gap: var(--spacing-lg);
+        text-align: center;
+    }
+    
+    .nav-links {
+        gap: var(--spacing-lg);
+    }
+    
+    /* Typography adjustments */
+    h1 {
+        font-size: 1.75rem;
+    }
+    
+    h2 {
+        font-size: 1.25rem;
+    }
+    
+    .logo {
+        font-size: 1.25rem;
+    }
+    
+    /* Spacing adjustments */
+    main {
+        padding: var(--spacing-xl) 0;
+    }
+    
+    header {
+        padding: var(--spacing-md) 0;
+    }
+    
+    /* Component adjustments */
+    .paper-links {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
+    
+    .paper-links a {
+        text-align: center;
+        display: block;
+    }
+    
+    .media-links {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
+    
+    .media-links a {
+        display: block;
+    }
+    
+    /* Contact info adjustments */
+    .contact-info {
+        padding: var(--spacing-md);
+    }
+}
+
+/* Mobile screens and down (640px and below) */
+@media (max-width: 640px) {
+    /* Container adjustments */
+    .container {
+        padding: 0 var(--spacing-md);
+    }
+    
+    /* Navigation for mobile */
+    .nav-links {
+        flex-direction: column;
+        gap: var(--spacing-md);
+        width: 100%;
+    }
+    
+    .nav-links li {
+        width: 100%;
+    }
+    
+    .nav-links li a {
+        display: block;
+        padding: var(--spacing-sm) 0;
+    }
+    
+    /* Typography for mobile */
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: var(--spacing-md);
+    }
+    
+    h2 {
+        font-size: 1.125rem;
+        margin-bottom: var(--spacing-sm);
+    }
+    
+    /* Spacing for mobile */
+    main {
+        padding: var(--spacing-lg) 0;
+    }
+    
+    .paper-item {
+        margin-bottom: var(--spacing-xl);
+        padding-bottom: var(--spacing-md);
+    }
+    
+    /* Component adjustments for mobile */
+    .contact-info {
+        padding: var(--spacing-sm);
+        margin: var(--spacing-md) 0;
+    }
+    
+    .abstract {
+        padding: var(--spacing-sm);
+        font-size: var(--font-size-small);
+    }
+    
+    .awards {
+        padding: var(--spacing-sm);
+    }
+    
+    .funding-info {
+        padding: var(--spacing-sm);
+    }
+    
+    /* Button adjustments */
+    .btn {
+        width: 100%;
+        display: block;
+        margin-bottom: var(--spacing-sm);
+    }
+}/* Mobile screens and down (640px and below) */
+@media (max-width: 640px) {
+    /* Container adjustments */
+    .container {
+        padding: 0 var(--spacing-md);
+    }
+    
+    /* Navigation for mobile */
+    .nav-links {
+        flex-direction: column;
+        gap: var(--spacing-md);
+        width: 100%;
+    }
+    
+    .nav-links li {
+        width: 100%;
+    }
+    
+    .nav-links li a {
+        display: block;
+        padding: var(--spacing-sm) 0;
+    }
+    
+    /* Typography for mobile */
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: var(--spacing-md);
+    }
+    
+    h2 {
+        font-size: 1.125rem;
+        margin-bottom: var(--spacing-sm);
+    }
+    
+    /* Spacing for mobile */
+    main {
+        padding: var(--spacing-lg) 0;
+    }
+    
+    .paper-item {
+        margin-bottom: var(--spacing-xl);
+        padding-bottom: var(--spacing-md);
+    }
+    
+    /* Component adjustments for mobile */
+    .contact-info {
+        padding: var(--spacing-sm);
+        margin: var(--spacing-md) 0;
+    }
+    
+    .abstract {
+        padding: var(--spacing-sm);
+        font-size: var(--font-size-small);
+    }
+    
+    .awards {
+        padding: var(--spacing-sm);
+    }
+    
+    .funding-info {
+        padding: var(--spacing-sm);
+    }
+    
+    /* CV page mobile */
+    .cv-viewer {
+        height: 60vh;
+        min-height: 400px;
+    }
+    
+    /* Teaching page mobile */
+    .teaching-intro,
+    .teaching-outro {
+        padding: var(--spacing-md);
+    }
+    
+    .course-card {
+        padding: var(--spacing-md);
+    }
+    
+    .teaching-stats {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+    
+    /* Button adjustments */
+    .btn {
+        width: 100%;
+        display: block;
+        margin-bottom: var(--spacing-sm);
+    }
+    
+    /* CV page adjustments */
+    .cv-viewer {
+        height: 70vh;
+        min-height: 500px;
+    }
+    
+    .cv-download {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    /* Teaching page adjustments */
+    .courses-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .university-header {
+        flex-direction: column;
+        text-align: center;
+        gap: var(--spacing-sm);
+    }
+    
+    .teaching-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Small mobile screens (480px and below) */
+@media (max-width: 480px) {
+    /* Further reduce spacing */
+    .container {
+        padding: 0 var(--spacing-sm);
+    }
+    
+    h1 {
+        font-size: 1.25rem;
+    }
+    
+    .logo {
+        font-size: 1.125rem;
+    }
+    
+    /* Reduce padding on components */
+    .contact-info,
+    .abstract,
+    .awards,
+    .funding-info {
+        padding: var(--spacing-xs) var(--spacing-sm);
+    }
+    
+    /* Stack paper links vertically with smaller buttons */
+    .paper-links a {
+        padding: var(--spacing-xs) var(--spacing-sm);
+        font-size: 0.75rem;
+    }
+}
+
+/* Print styles */
+@media print {
+    header {
+        border-bottom: 2px solid #000;
+    }
+    
+    footer {
+        border-top: 1px solid #000;
+        background-color: transparent;
+        color: #000;
+    }
+    
+    .nav-links {
+        display: none;
+    }
+    
+    a {
+        color: #000;
+        text-decoration: underline;
+    }
+    
+    .paper-links a {
+        background-color: transparent;
+        color: #000;
+        border: 1px solid #000;
+    }
+    
+    .awards,
+    .funding-info {
+        border: 1px solid #000;
+        background-color: transparent;
+    }
+    
+    .abstract {
+        border: 1px solid #000;
+        background-color: transparent;
+    }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    :root {
+        --color-primary: #0066cc;
+        --color-primary-dark: #004499;
+        --color-text: #000;
+        --color-text-light: #333;
+        --color-border: #ccc;
+    }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}

@@ -1,0 +1,465 @@
+/* Reusable Components */
+
+/* Profile Section */
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    text-align: center;
+    justify-content: space-between;
+    margin: var(--spacing-3xl) 0;
+}       
+
+.profile-container img {
+    width: 40vh;
+    /* height: 65%; */
+    /* border-radius: 60%; */
+    object-fit: cover;
+    margin-bottom: var(--spacing-md);
+    /* border: 3px solid var(--color-primary); */
+}   
+
+.profile-container h1 {
+    font-size: var(--font-size-h1);
+    margin-bottom: var(--spacing-xl);
+}
+
+.profile-container p {
+    font-size: var(--font-size-base);
+    color: var(--color-text-light);
+    /* max-width: 600px; */
+}
+
+.profile-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* Contact Information Card */
+.contact-info {
+    background-color: var(--color-background-alt);
+    padding: var(--spacing-lg);
+    border-radius: var(--border-radius-lg);
+    margin: var(--spacing-lg) 0;
+    border: 1px solid var(--color-border-light);
+}
+
+.contact-info h3 {
+    margin-bottom: var(--spacing-md);
+}
+
+.contact-info p {
+    margin-bottom: var(--spacing-sm);
+}
+
+.contact-info p:last-child {
+    margin-bottom: 0;
+}
+
+/* Course Item */
+.course-group {
+    padding-bottom: var(--spacing-3xl);
+}
+
+/* Paper/Research Item */
+.paper-item {
+    margin-bottom: var(--spacing-2xl);
+    padding-bottom: var(--spacing-lg);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.paper-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.paper-title {
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: var(--spacing-sm);
+    font-size: var(--font-size-large);
+    line-height: var(--line-height-tight);
+}
+
+.paper-title a {
+    color: var(--color-text);
+    transition: color var(--transition-normal);
+}
+
+.paper-title a:hover {
+    color: var(--color-primary);
+}
+
+/* Authors */
+.authors {
+    margin-bottom: var(--spacing-sm);
+    color: var(--color-text-light);
+    font-style: italic;
+}
+
+.authors a {
+    color: var(--color-primary);
+    font-style: normal;
+}
+
+/* Paper Links */
+.paper-links {
+    margin-bottom: var(--spacing-md);
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+}
+
+.paper-links a {
+    background-color: var(--color-primary);
+    color: var(--color-background);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--border-radius-md);
+    font-size: var(--font-size-small);
+    text-decoration: none;
+    transition: background-color var(--transition-normal);
+    font-weight: var(--font-weight-medium);
+}
+
+.paper-links a:hover {
+    background-color: var(--color-primary-dark);
+    text-decoration: none;
+}
+
+/* Awards Section */
+.awards {
+    background-color: var(--color-award-bg);
+    padding: var(--spacing-md);
+    border-radius: var(--border-radius-md);
+    margin: var(--spacing-md) 0;
+    border-left: 4px solid var(--color-award-border);
+}
+
+.awards p {
+    margin-bottom: var(--spacing-sm);
+}
+
+.awards p:last-child {
+    margin-bottom: 0;
+}
+
+.awards strong {
+    display: block;
+    margin-bottom: var(--spacing-sm);
+    color: var(--color-text);
+}
+
+/* Media Coverage */
+.media-coverage {
+    margin: var(--spacing-md) 0;
+}
+
+.media-coverage strong {
+    display: block;
+    margin-bottom: var(--spacing-sm);
+    color: var(--color-text);
+}
+
+.media-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-md);
+}
+
+.media-links a {
+    color: var(--color-primary);
+    font-weight: var(--font-weight-medium);
+    text-decoration: underline;
+    transition: color var(--transition-normal);
+}
+
+.media-links a:hover {
+    color: var(--color-primary-dark);
+}
+
+/* Abstract Section */
+.abstract {
+    background-color: var(--color-background-alt);
+    padding: var(--spacing-md);
+    border-radius: var(--border-radius-md);
+    margin: var(--spacing-md) 0;
+    font-style: italic;
+    border-left: 3px solid var(--color-primary);
+    line-height: var(--line-height-base);
+}
+
+/* Publication Information */
+.publication-info {
+    color: var(--color-text-light);
+    font-style: italic;
+    margin-bottom: var(--spacing-sm);
+}
+
+/* Funding Information */
+.funding-info {
+    background-color: #e8f5e8;
+    border-left: 4px solid #28a745;
+    padding: var(--spacing-md);
+    border-radius: var(--border-radius-md);
+    margin: var(--spacing-md) 0;
+}
+
+.funding-info p {
+    margin-bottom: var(--spacing-sm);
+}
+
+.funding-info p:last-child {
+    margin-bottom: 0;
+}
+
+.funding-info strong {
+    display: block;
+    margin-bottom: var(--spacing-sm);
+    color: var(--color-text);
+}
+
+/* Section Dividers */
+.section-divider {
+    border: none;
+    height: 1px;
+    background-color: var(--color-border);
+    margin: var(--spacing-2xl) 0;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: var(--spacing-sm) var(--spacing-lg);
+    border-radius: var(--border-radius-md);
+    font-weight: var(--font-weight-medium);
+    text-align: center;
+    text-decoration: none;
+    transition: all var(--transition-normal);
+    cursor: pointer;
+    border: none;
+    font-size: var(--font-size-base);
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-background);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-primary-dark);
+    text-decoration: none;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+}
+
+.btn-secondary:hover {
+    background-color: var(--color-primary);
+    color: var(--color-background);
+    text-decoration: none;
+}
+
+/* CV Page Components */
+.cv-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-lg);
+}
+
+.cv-viewer {
+    width: 100%;
+    max-width: 900px;
+    height: 80vh;
+    min-height: 600px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+}
+
+.cv-viewer iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Teaching Page Components */
+.teaching-intro,
+.teaching-outro {
+    background-color: var(--color-background-alt);
+    padding: var(--spacing-xl);
+    border-radius: var(--border-radius-lg);
+    margin: var(--spacing-lg) 0;
+    border-left: 4px solid var(--color-primary);
+}
+
+.teaching-intro h3,
+.teaching-outro h3 {
+    margin-bottom: var(--spacing-md);
+    color: var(--color-primary);
+}
+
+.university-section {
+    margin-bottom: var(--spacing-2xl);
+    padding-bottom: var(--spacing-xl);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.university-section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.university-header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.university-logo {
+    width: 48px;
+    height: 48px;
+    border-radius: var(--border-radius-md);
+    background-color: var(--color-background-alt);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-primary);
+    border: 2px solid var(--color-border);
+}
+
+.university-info h3 {
+    margin-bottom: var(--spacing-xs);
+    font-size: var(--font-size-h2);
+}
+
+.university-period {
+    color: var(--color-text-light);
+    font-style: italic;
+}
+
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+}
+
+.course-card {
+    background-color: var(--color-background);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-lg);
+    transition: all var(--transition-normal);
+    position: relative;
+}
+
+.course-card:hover {
+    border-color: var(--color-primary);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+.course-title {
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: var(--spacing-sm);
+    color: var(--color-text);
+}
+
+.course-code {
+    color: var(--color-primary);
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-small);
+    margin-bottom: var(--spacing-sm);
+}
+
+.course-description {
+    color: var(--color-text-light);
+    margin-bottom: var(--spacing-md);
+    line-height: var(--line-height-base);
+}
+
+.course-years {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-xs);
+}
+
+.year-tag {
+    background-color: var(--color-background-alt);
+    color: var(--color-text);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: var(--border-radius-sm);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-medium);
+    border: 1px solid var(--color-border);
+}
+
+.course-level {
+    position: absolute;
+    top: var(--spacing-sm);
+    right: var(--spacing-sm);
+    background-color: var(--color-primary);
+    color: var(--color-background);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: var(--border-radius-sm);
+    font-size: 0.75rem;
+    font-weight: var(--font-weight-medium);
+    text-transform: uppercase;
+}
+
+.course-level.undergraduate {
+    background-color: #28a745;
+}
+
+.course-level.master {
+    background-color: var(--color-primary);
+}
+
+.course-level.phd {
+    background-color: #6f42c1;
+}
+
+.course-level.summer-school {
+    background-color: #fd7e14;
+}
+
+.course-level.other {
+    background-color: var(--color-text-light);
+}
+
+.teaching-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--spacing-lg);
+    margin: var(--spacing-xl) 0;
+}
+
+.stat-card {
+    background-color: var(--color-background-alt);
+    padding: var(--spacing-lg);
+    border-radius: var(--border-radius-lg);
+    text-align: center;
+    border: 1px solid var(--color-border);
+}
+
+.stat-number {
+    font-size: 2rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-primary);
+    display: block;
+}
+
+.stat-label {
+    color: var(--color-text-light);
+    font-size: var(--font-size-small);
+    margin-top: var(--spacing-xs);
+}

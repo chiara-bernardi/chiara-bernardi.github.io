@@ -1,0 +1,75 @@
+/* CSS Custom Properties (Variables) */
+
+:root {
+    /* Colors */
+    --color-primary: #007acc;
+    --color-primary-dark: #005599;
+    --color-text: #333;
+    --color-text-light: #666;
+    --color-background: #fff;
+    --color-background-alt: #f8f9fa;
+    --color-border: #eee;
+    --color-border-light: #f0f0f0;
+    
+    /* Award colors */
+    --color-award-bg: #fff3cd;
+    --color-award-border: #ffc107;
+    
+    /* Footer */
+    --color-footer-bg: #333;
+    --color-footer-text: #fff;
+    
+    /* Typography */
+    --font-family-primary: 'Helvetica Neue', Arial, sans-serif;
+    --font-size-base: 1rem;
+    --font-size-small: 0.875rem;
+    --font-size-large: 1.125rem;
+    --font-size-h1: 2.25rem;
+    --font-size-h2: 1.5rem;
+    --font-size-h3: 1.125rem;
+    --font-size-logo: 1.5rem;
+    
+    /* Font weights */
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    
+    /* Line heights */
+    --line-height-base: 1.6;
+    --line-height-tight: 1.2;
+    
+    /* Spacing */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-2xl: 2.5rem;
+    --spacing-3xl: 3rem;
+    
+    /* Layout */
+    --container-max-width: 1200px;
+    --container-padding: 1.25rem;
+    
+    /* Border radius */
+    --border-radius-sm: 0.1875rem;
+    --border-radius-md: 0.25rem;
+    --border-radius-lg: 0.3125rem;
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    
+    /* Transitions */
+    --transition-fast: 0.15s ease;
+    --transition-normal: 0.3s ease;
+    --transition-slow: 0.5s ease;
+    
+    /* Breakpoints (for reference) */
+    --breakpoint-sm: 640px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+}
