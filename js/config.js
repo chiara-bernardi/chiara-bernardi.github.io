@@ -32,7 +32,8 @@ const APP_CONFIG = {
     // Contact information
     CONTACT: {
         email: 'c.bernardi@qmul.ac.uk',
-        twitter: '@none',
+        bluesky: 'https://bsky.app/profile/chiarabernardi.bsky.social',
+        linkedin: 'https://www.linkedin.com/in/chiara-bernardi-2b6239126/',
         institution: 'Queen Mary University',
         department: 'School of Economics and Finance',
         address: 'Mile End Road, London E1 4NS'
