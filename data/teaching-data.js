@@ -9,6 +9,12 @@ const TEACHING_DATA = {
       level: 'Undergraduate',
     },
     {
+      name: 'Cost–Benefit Analysis',
+      university: 'Queen Mary University of London',
+      year: 2025,
+      level: 'Master',
+    },
+    {
       name: 'Labour Economics',
       university: 'Queen Mary University of London',
       year: 2024,
