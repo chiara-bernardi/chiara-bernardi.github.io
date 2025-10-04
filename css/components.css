@@ -432,7 +432,7 @@
 }
 
 .course-level.master {
-    background-color: var(--color-primary);
+    background-color:  #fd7e14;
 }
 
 .course-level.phd {
@@ -440,7 +440,7 @@
 }
 
 .course-level.summer-school {
-    background-color: #fd7e14;
+    background-color: hsl(59, 97%, 47%);
 }
 
 .course-level.other {
