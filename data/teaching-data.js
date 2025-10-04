@@ -117,7 +117,9 @@ const TEACHING_DATA = {
       level: 'Undergraduate',
     }
   ],
-  intro: null,
+  intro: `
+      <strong style="color: red; font-size: 1.2em;">New!</strong> I was awarded the <strong><a href="https://www.qmul.ac.uk/sef/media/econ/news/browse-our-newsletter/30th-SEF-Newsletter---September-2025.pdf" target="_blank">2025 Excellence in Undergraduate Class Teaching Prize</a></strong> at Queen Mary University of London.
+    `,
   outro: `
       I am a trained <strong><a target="_blank" href="assets/documents/teaching_training_certificate.pdf">Graduate Teaching Assistant (Economics Network)</a></strong> and I received 
       teaching bonuses from LSE for the outstanding results in <strong><a target="_blank" href="assets/documents/teaching_evaluations.pdf">students teaching evaluations</a></strong>.
