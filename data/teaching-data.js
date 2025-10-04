@@ -180,9 +180,9 @@ const TEACHING_UTILS = {
     id = this.getCourseID(course);
     return `
       <div class="course-card" id="course-${id}">
-        <div class="course-title">${course.name}</div>
-        <div class="course-years">${course.years.sort((a, b) => a < b ? 1 : a == b ? 0 : -1).map(year => `<div class="year-tag">${year}</div>`).join('')}</div>
         <div class="course-level ${this.getStyleClassLevel(course)}">${course.level}</div>
+        <h4 class="course-title">${course.name}</h4>
+        <div class="course-years">${course.years.sort((a, b) => a < b ? 1 : a == b ? 0 : -1).map(year => `<div class="year-tag">${year}</div>`).join('')}</div>
       </div>
       `;
   }

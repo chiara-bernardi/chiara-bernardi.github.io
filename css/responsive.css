@@ -77,6 +77,14 @@
         display: block;
     }
     
+    /* Profile picture adjustments */
+    .profile-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: var(--spacing-md);
+    }
+
     /* Contact info adjustments */
     .contact-info {
         padding: var(--spacing-md);

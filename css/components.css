@@ -8,15 +8,19 @@
     text-align: center;
     justify-content: space-between;
     margin: var(--spacing-3xl) 0;
+    gap: var(--spacing-lg);
 }       
 
-.profile-container img {
-    width: 40vh;
-    /* height: 65%; */
-    /* border-radius: 60%; */
+.profile-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image img {
+    width: max(40vh, 300px);
     object-fit: cover;
     margin-bottom: var(--spacing-md);
-    /* border: 3px solid var(--color-primary); */
 }   
 
 .profile-container h1 {
@@ -27,7 +31,7 @@
 .profile-container p {
     font-size: var(--font-size-base);
     color: var(--color-text-light);
-    /* max-width: 600px; */
+    max-width: 600px;
 }
 
 .profile-details {
