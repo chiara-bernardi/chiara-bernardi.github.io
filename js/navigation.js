@@ -166,18 +166,19 @@ class NavigationManager {
                     </div>
                     <div class="profile-details">
                         <div>
-                            <h1>Welcome!</h1>
+                            <h2>Welcome!</h2>
                             <p/>
 
                             <p>I am a final year PhD Candidate at <strong>Queen Mary University of London</strong></p>
                             
-                            <p>My research interests lie in <strong>labour economics</strong>, <strong>gender</strong> and <strong>personnel economics</strong>.</p>
+                            <p>My interests lie in <strong>labour economics</strong>, <strong>productivity</strong> and <strong>technology</strong>.<br/>
+                            In my research, I study how workplace technologies and human capital contribute to firms’ productivity and workers’ wage dynamics.</p>
                         </div>
                         <div class="contact-info">
                             <h3>Contact Information</h3>
                             <p>
-                                ${contact.institution}, ${contact.department}<br/>
-                                ${contact.address}
+                                ${contact.institution} <br/>
+                                ${contact.office}, ${contact.department}
                             </p>
                             <p>
                                 <a href="mailto:${contact.email}">${contact.email}</a>
