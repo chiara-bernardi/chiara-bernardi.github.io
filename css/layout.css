@@ -1,0 +1,147 @@
+/* Layout and Structure */
+
+/* Container */
+.container {
+    max-width: var(--container-max-width);
+    margin: 0 auto;
+    padding: 0 var(--container-padding);
+}
+
+/* Header */
+header {
+    background-color: var(--color-background);
+    padding: var(--spacing-lg) 0;
+    border-bottom: 1px solid var(--color-border);
+    position: sticky;
+    top: -20px;
+    z-index: 100;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: var(--font-size-logo);
+    font-weight: 800;
+    color: var(--color-primary);
+    text-decoration: none;
+    margin: -20px 0;
+    padding: 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: var(--spacing-2xl);
+}
+
+.nav-links li a {
+    color: var(--color-text);
+    font-weight: var(--font-weight-normal);
+    transition: color var(--transition-normal);
+    position: relative;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.nav-links li a.active::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: var(--color-primary);
+}
+
+/* Main content */
+main {
+    padding: var(--spacing-2xl) 0;
+    min-height: 60vh;
+}
+
+/* Page content management */
+.page-content {
+    display: none;
+    opacity: 0;
+    transition: opacity var(--transition-normal);
+}
+
+.page-content.active {
+    display: block;
+    opacity: 1;
+}
+
+/* Footer */
+footer {
+    background-color: var(--color-footer-bg);
+    color: var(--color-footer-text);
+    text-align: center;
+    padding: var(--spacing-lg) 0;
+    margin-top: var(--spacing-3xl);
+}
+
+footer p {
+    margin-bottom: 0;
+    font-size: var(--font-size-small);
+}
+
+/* Utility classes */
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.mb-1 {
+    margin-bottom: var(--spacing-sm) !important;
+}
+
+.mb-2 {
+    margin-bottom: var(--spacing-md) !important;
+}
+
+.mb-3 {
+    margin-bottom: var(--spacing-lg) !important;
+}
+
+.mt-0 {
+    margin-top: 0 !important;
+}
+
+.mt-1 {
+    margin-top: var(--spacing-sm) !important;
+}
+
+.mt-2 {
+    margin-top: var(--spacing-md) !important;
+}
+
+.mt-3 {
+    margin-top: var(--spacing-lg) !important;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.visible {
+    display: block !important;
+}
