@@ -24,7 +24,7 @@ const APP_CONFIG = {
     
     META_DESCRIPTIONS: {
         home: 'Chiara Bernardi is a PhD candidate at the School of Economics and Finance, Queen Mary University of London, specializing in labor economics with focus on personnel and gender economics.',
-        research: 'Research papers and publications by Chiara Bernardi in gender economics, personnel economics, and labor economics.',
+        research: 'Research papers and publications by Chiara Bernardi in labor economics, personnel economics, productivity and technology.',
         teaching: 'Teaching portfolio of Chiara Bernardi, including courses and materials related to economics.',
         cv: 'Curriculum Vitae of Chiara Bernardi, detailing academic background, research interests, and professional experience.'
     },

@@ -169,10 +169,15 @@ class NavigationManager {
                             <h2>Welcome!</h2>
                             <p/>
 
-                            <p>I am a final year PhD Candidate at <strong>Queen Mary University of London</strong></p>
+                            <p>I am a final year PhD Candidate at <strong>Queen Mary University of London</strong> <br/>
+                            I will join the London Office of the <strong>Bank of Italy</strong> in November 2025 
+                            </p>
                             
                             <p>My interests lie in <strong>labour economics</strong>, <strong>productivity</strong> and <strong>technology</strong>.<br/>
                             In my research, I study how workplace technologies and human capital contribute to firms’ productivity and workers’ wage dynamics.</p>
+
+                            
+
                         </div>
                         <div class="contact-info">
                             <h3>Contact Information</h3>
