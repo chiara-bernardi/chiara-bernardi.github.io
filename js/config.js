@@ -16,14 +16,14 @@ const APP_CONFIG = {
     
     // SEO settings
     META_TITLES: {
-        home: 'Chiara Bernardi - PhD Candidate at the School of Economics and Finance, Queen Mary University of London',
+        home: 'Chiara Bernardi - Economist at the London Office of the Bank of Italy',
         research: 'Research - Chiara Bernardi',
         teaching: 'Teaching - Chiara Bernardi',
         cv: 'Vitae - Chiara Bernardi'
     },
     
     META_DESCRIPTIONS: {
-        home: 'Chiara Bernardi is a PhD candidate at the School of Economics and Finance, Queen Mary University of London, specializing in labor economics with focus on personnel and gender economics.',
+        home: 'Chiara Bernardi is a PhD economist at the London office of the Bank of Italy, specializing in labor economics with focus on personnel and gender economics.',
         research: 'Research papers and publications by Chiara Bernardi in labor economics, personnel economics, productivity and technology.',
         teaching: 'Teaching portfolio of Chiara Bernardi, including courses and materials related to economics.',
         cv: 'Curriculum Vitae of Chiara Bernardi, detailing academic background, research interests, and professional experience.'
@@ -31,13 +31,13 @@ const APP_CONFIG = {
     
     // Contact information
     CONTACT: {
-        email: 'c.bernardi@qmul.ac.uk',
+        email: 'chiara.bernardi@bancaditalia.co.uk',
         bluesky: 'https://bsky.app/profile/chiarabernardi.bsky.social',
         linkedin: 'https://www.linkedin.com/in/chiara-bernardi-2b6239126/',
-        institution: 'Queen Mary University of London',
-        department: 'School of Economics and Finance',
-        office: 'Office GC526',
-        address: 'Mile End Road, London E1 4NS'
+        institution: 'London Representative Office of the Bank of Italy',
+        department: '2 Royal Exchange',
+        office: 'EC3V 3DG',
+        address: '2 Royal Exchange, London, EC3V 3DG'
     },
     
     // External links

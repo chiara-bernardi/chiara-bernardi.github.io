@@ -290,9 +290,9 @@ class App {
         const fallbackContent = `
             <div class="error-fallback">
                 <h1>Chiara Bernardi</h1>
-                <p>PhD candidate at the School of Economics and Finance, Queen Mary University of London,</p>
+                <p>Economist at the London Office of the Bank of Italy,</p>
                 <p>There was an issue loading the interactive features. Please refresh the page or enable JavaScript.</p>
-                <p><strong>Email:</strong> <a href="mailto:c.bernardi@qmul.ac.uk">c.bernardi@qmul.ac.uk</a></p>
+                <p><strong>Email:</strong> <a href="mailto:chiara.bernardi@bancaditalia.co.uk">chiara.bernardi@bancaditalia.co.uk</a></p>
             </div>
         `;
         
