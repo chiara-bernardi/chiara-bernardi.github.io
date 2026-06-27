@@ -52,6 +52,17 @@ a:hover {
     text-decoration: underline;
 }
 
+a.secondary-link {
+    color: var(--color-text);
+    text-decoration: none;
+    transition: color var(--transition-normal);
+}
+
+a.secondary-link:hover {
+    color: var(--color-primary-dark);
+    text-decoration: underline;
+}
+
 /* Strong text */
 strong {
     font-weight: var(--font-weight-semibold);

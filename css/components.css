@@ -15,12 +15,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
 .profile-image img {
     width: max(40vh, 300px);
     object-fit: cover;
-    margin-bottom: var(--spacing-md);
+    margin: 0 auto var(--spacing-md) auto;
+    display: block;
 }   
 
 .profile-container h1 {
